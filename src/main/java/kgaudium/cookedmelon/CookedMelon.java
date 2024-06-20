@@ -1,8 +1,8 @@
-package kgaudium.friedmelon;
+package kgaudium.cookedmelon;
 // TODO make an icon with fried melon slice
 import net.fabricmc.api.ModInitializer;
 
-public class FriedMelon implements ModInitializer{
+public class CookedMelon implements ModInitializer{
     /**
      * Runs the mod initializer.
      */

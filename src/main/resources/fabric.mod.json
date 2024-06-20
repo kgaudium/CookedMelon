@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "friedmelon",
+  "id": "cookedmelon",
   "version": "${version}",
-  "name": "FriedMelon",
-  "description": "Adds the ability to fry melon slices",
+  "name": "Cooked Melon",
+  "description": "Adds the ability to cook melon slices",
   "authors": [
     "kgaudium"
   ],
   "contact": {
-    "repo": "https://github.com/kgaudium/FriedMelon"
+    "repo": "https://github.com/kgaudium/CookedMelon"
   },
   "license": "MIT",
-  "icon": "assets/friedmelon/icon.png",
+  "icon": "assets/cookedmelon/icon.png",
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
-      "kgaudium.friedmelon.FriedMelonDataGenerator"
+      "kgaudium.cookedmelon.CookedMelonDataGenerator"
     ],
     "client": [
-      "kgaudium.friedmelon.client.FriedMelonClient"
+      "kgaudium.cookedmelon.client.CookedMelonClient"
     ],
     "main": [
-      "kgaudium.friedmelon.FriedMelon"
+      "kgaudium.cookedmelon.CookedMelon"
     ]
   },
   "depends": {

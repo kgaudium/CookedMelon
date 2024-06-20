@@ -1,8 +1,8 @@
-package kgaudium.friedmelon.client;
+package kgaudium.cookedmelon.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class FriedMelonClient implements ClientModInitializer {
+public class CookedMelonClient implements ClientModInitializer {
     /**
      * Runs the mod initializer on the client environment.
      */
