@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "friedmelon",
+  "version": "${version}",
+  "name": "FriedMelon",
+  "description": "Adds the ability to fry melon slices",
+  "authors": [
+    "kgaudium"
+  ],
+  "contact": {
+    "repo": "https://github.com/kgaudium/FriedMelon"
+  },
+  "license": "MIT",
+  "icon": "assets/friedmelon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "kgaudium.friedmelon.FriedMelonDataGenerator"
+    ],
+    "client": [
+      "kgaudium.friedmelon.client.FriedMelonClient"
+    ],
+    "main": [
+      "kgaudium.friedmelon.FriedMelon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
