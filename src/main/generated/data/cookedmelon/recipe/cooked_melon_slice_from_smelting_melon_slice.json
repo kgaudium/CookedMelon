@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 140,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:melon_slice"
+  },
+  "result": {
+    "id": "cookedmelon:cooked_melon_slice"
+  }
+}

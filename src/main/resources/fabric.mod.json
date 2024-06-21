@@ -12,16 +12,16 @@
   },
   "license": "MIT",
   "icon": "assets/cookedmelon/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "kgaudium.cookedmelon.CookedMelonDataGenerator"
-    ],
     "client": [
       "kgaudium.cookedmelon.client.CookedMelonClient"
     ],
     "main": [
       "kgaudium.cookedmelon.CookedMelon"
+    ],
+    "fabric-datagen": [
+      "kgaudium.cookedmelon.CookedMelonDataGenerator"
     ]
   },
   "depends": {
